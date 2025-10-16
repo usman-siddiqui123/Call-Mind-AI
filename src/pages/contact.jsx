@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../components/header"; // header import
 import contactBg from "../assets/logos/contacthero.png"; // 👈 yahan tumhara exact image path
 import Footer from "../components/footer";
+import callls  from "../assets/logos/callls.png"
+import emails from "../assets/logos/emails.png"
 
 export default function Contact() {
   return (
@@ -63,7 +65,7 @@ export default function Contact() {
       <div className="w-full sm:w-[220px] border border-gray-300 p-6 rounded-xl hover:shadow-xl transition-all bg-white">
         <div className="flex flex-col items-center text-center space-y-3">
           <img
-            src="/src/assets/logos/callls.png"
+            src={callls}
             alt="Call"
             className="w-8 h-8 sm:w-10 sm:h-10"
           />
@@ -80,7 +82,7 @@ export default function Contact() {
       <div className="w-full sm:w-[220px] border border-gray-300 p-6 rounded-xl hover:shadow-xl transition-all bg-white">
         <div className="flex flex-col items-center text-center space-y-3">
           <img
-            src="/src/assets/logos/emails.png"
+            src={emails}
             alt="Email"
             className="w-8 h-8 sm:w-10 sm:h-10"
           />
