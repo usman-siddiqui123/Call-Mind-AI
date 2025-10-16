@@ -71,27 +71,30 @@ export default function About() {
       <Header />
 
       {/* HERO IMAGE SECTION */}
-      <section className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh]">
-        <img
-          src={aboutImage}
-          alt="About"
-          className="w-full h-full object-cover object-center"
-        />
-        <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-white text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3">
-            About Us
-          </h2>
-          <p className="text-sm sm:text-base md:text-lg">
-            <a
-              href="/"
-              className="hover:text-[#c7aefc] transition-colors duration-200"
-            >
-              Home
-            </a>{" "}
-            / About Us
-          </p>
-        </div>
-      </section>
+     <section className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[85vh] overflow-hidden">
+  <img
+    src={aboutImage}
+    alt="About"
+    className="w-full h-full object-cover object-center"
+  />
+  
+  {/* Overlay aur Text Centered */}
+  <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-white text-center px-4">
+    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 leading-tight">
+      About Us
+    </h2>
+    <p className="text-sm sm:text-base md:text-lg lg:text-xl">
+      <a
+        href="/"
+        className="hover:text-[#c7aefc] transition-colors duration-200"
+      >
+        Home
+      </a>{" "}
+      / About Us
+    </p>
+  </div>
+</section>
+
 
       {/* NEW CONTENT SECTION (Image on Left) */}
       <section className="max-w-7xl mx-auto px-5 py-16 flex flex-col md:flex-row items-center gap-10">

@@ -10,31 +10,34 @@ export default function Contact() {
       <Header />
 
       {/* CONTACT HERO SECTION */}
-      <section
-        className="relative w-full min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center text-center text-white bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${contactBg})`,
-        }}
-      >
-        {/* Overlay for readability */}
-        <div className="absolute inset-0 bg-black/50"></div>
+<section
+  className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[85vh] flex items-center justify-center text-center text-white overflow-hidden"
+  style={{
+    backgroundImage: `url(${contactBg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  {/* Dark overlay for readability */}
+  <div className="absolute inset-0 bg-black/50"></div>
 
-        {/* Content (text center aligned) */}
-        <div className="relative z-10 px-4 sm:px-6">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 drop-shadow-md">
-            Contact Us
-          </h1>
-          <p className="text-sm sm:text-base md:text-lg">
-            <a
-              href="/"
-              className="hover:text-[#c7aefc] transition-colors duration-200"
-            >
-              Home
-            </a>{" "}
-            / Contact Us
-          </p>
-        </div>
-      </section>
+  {/* Centered Content */}
+  <div className="relative z-10 px-4 sm:px-6 flex flex-col items-center justify-center">
+    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 drop-shadow-md leading-tight">
+      Contact Us
+    </h1>
+    <p className="text-sm sm:text-base md:text-lg lg:text-xl">
+      <a
+        href="/"
+        className="hover:text-[#c7aefc] transition-colors duration-200"
+      >
+        Home
+      </a>{" "}
+      / Contact Us
+    </p>
+  </div>
+</section>
+
 <section className="py-16 px-4 sm:px-8 md:px-20 bg-white">
   <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
     
