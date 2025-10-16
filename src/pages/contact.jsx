@@ -4,7 +4,7 @@ import contactBg from "../assets/logos/contacthero.png"; // 👈 yahan tumhara e
 import Footer from "../components/footer";
 import callls  from "../assets/logos/callls.png"
 import emails from "../assets/logos/emails.png"
-
+import contactform from  "../assets/logos/contactform.jpg"
 export default function Contact() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -156,7 +156,7 @@ export default function Contact() {
     {/* RIGHT IMAGE BOX */}
     <div className="flex justify-center items-center">
       <img
-        src="/src/assets/logos/contactform.jpg"
+        src={contactform}
         alt="Contact Illustration"
         className="rounded-2xl shadow-lg w-[80%] sm:w-[70%] md:w-[90%] lg:w-[95%] xl:w-[90%] h-[260px] sm:h-[300px] md:h-[350px] lg:h-[380px] object-cover"
       />
