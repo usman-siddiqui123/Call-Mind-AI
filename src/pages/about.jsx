@@ -2,7 +2,7 @@ import React from "react";
 // Image imports: Nayi image ko rightImage ke naam se import kiya hai
 import Header from "../components/header";
 import aboutImage from "../assets/logos/about.jpg"; // Hero section image
-import leftImage from "../assets/logos/leftImage.JPG"; // New left side image
+import leftImage from "../assets/logos/leftimage.jpg"; // New left side image
 import rightImage from "../assets/logos/right.jpg"; // Nayi image ka path! **(Is line ko add kiya hai)**
 import { CheckCircle } from "lucide-react"; // Tick icon
 import Footer from "../components/footer";
