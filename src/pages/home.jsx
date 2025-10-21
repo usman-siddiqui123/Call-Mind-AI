@@ -572,14 +572,15 @@ export default function Home() {
         <h3 className="text-3xl sm:text-4xl font-bold">120K</h3>
         <p className="text-xs sm:text-sm text-gray-500">Chatbot Support</p>
       </div>
-    </div>
-        <div className="w-full md:w-1/2 flex justify-center">
+              <div className="w-full md:w-1/2 flex justify-center">
     <img
       src={robot2}
       alt="AI Communication"
       className="w-[85%] sm:w-[70%] max-w-md rounded-2xl shadow-lg object-contain"
     />
   </div>
+    </div>
+
   </div>
 
   {/* RIGHT SIDE - IMAGE */}
