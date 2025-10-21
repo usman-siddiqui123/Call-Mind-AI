@@ -547,7 +547,7 @@ export default function Home() {
 
 {/* AI STATS SECTION */}
 <div className="w-full flex flex-col md:flex-row items-center justify-center mt-20 px-4 sm:px-8 lg:px-12">
-
+  
   {/* LEFT SIDE - TEXT CONTENT */}
   <div className="w-full md:w-1/2 text-center md:text-left mb-10 md:mb-0">
     <p className="text-[#525866] text-sm sm:text-base leading-relaxed mb-8 max-w-xl mx-auto md:mx-0">
@@ -572,19 +572,17 @@ export default function Home() {
         <h3 className="text-3xl sm:text-4xl font-bold">120K</h3>
         <p className="text-xs sm:text-sm text-gray-500">Chatbot Support</p>
       </div>
-              <div className="w-full md:w-1/2 flex justify-center">
+    </div>
+  </div>
+
+  {/* RIGHT SIDE - IMAGE */}
+  <div className="w-full md:w-1/2 flex justify-center">
     <img
       src={robot2}
       alt="AI Communication"
       className="w-[85%] sm:w-[70%] max-w-md rounded-2xl shadow-lg object-contain"
     />
   </div>
-    </div>
-
-  </div>
-
-  {/* RIGHT SIDE - IMAGE */}
-
 </div>
 
 
